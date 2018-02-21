@@ -2,8 +2,8 @@
 import scrapy
 
 
-class KiraSpider(scrapy.Spider):
-    name = 'kira'
+class qouteSpider(scrapy.Spider):
+    name = 'kiraspider'
     allowed_domains = ['quotes.toscrape.com']
     start_urls = ['http://quotes.toscrape.com/']
     def parse(self,response):
